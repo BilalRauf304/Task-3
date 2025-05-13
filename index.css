@@ -26,14 +26,20 @@ body{
 
 }
 .text-3{
-    margin: 0px 0px 0px 0px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px ;
+    padding-top: 4px;
+    font-weight: bolder ;
 }
 .chek-11{
-
-    margin: -160px 0px 0px 67px ;
+       position: relative;
+       left:38px ;
+       top: -30px;
 }
 .chek-22{
-    padding: 56px 0px 0px 87px ;
+    position: relative;
+    top: 26px;
+    left: 115px;
 
 }
 
@@ -79,7 +85,7 @@ body{
 }
 input::placeholder,
 textarea::placeholder {
-  color: white;
+  color: rgb(255, 255, 255);
   opacity: 1;
   font-size:9px;
 
@@ -93,33 +99,33 @@ textarea::placeholder {
 
 
 .input-4{
-    height: 34px;
+    height: 40px;
     width: 340px;
     margin-bottom: 23px;
     border: 2px solid white;
     text-decoration: azure;
 }
 .input-5{
-    height: 34px;
+    height: 40px;
     width: 340px;
     margin-bottom: 23px;
     border: 2px solid white;
 
 }
 .input-6{
-    height: 34px;
+    height: 40px;
     width: 340px;
     margin-bottom: 23px;
     border: 2px solid white;
 }
 .input-7{
-    height: 34px;
+    height: 40px;
     width: 340px;
     margin-bottom: 23px;
     border: 2px solid white;
 }
 .input-8{
-    height: 34px;
+    height: 40px;
     width: 340px;
     margin-bottom: 23px;
     border: 2px solid white;
@@ -128,7 +134,12 @@ textarea::placeholder {
 button{
     margin: px 0px 0px 0px;
     height:40px ;
-    width: 75%;
+    width: 80%;
     padding-left: 26px;
     text-align: center;
+}
+.link-1{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
 }
