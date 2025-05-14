@@ -35,12 +35,19 @@ body{
        position: relative;
        left:38px ;
        top: -30px;
+       opacity:50% ;
+       color: rgb(243, 241, 241);
 }
 .chek-22{
     position: relative;
     top: 26px;
     left: 115px;
 
+}
+input[type=checkbox]{
+    accent-color: rgb(238, 238, 234);
+    opacity: 50%;
+    outline-color:rgb(241, 241, 234) ;
 }
 
 .aside1{
@@ -92,12 +99,12 @@ textarea::placeholder {
 }
 .chekboxes{
     display: flex;
-    gap: 80px;
+    gap: 84px;
     padding: -48px 0px 0px 0px  ;
     color: aliceblue;
-}
-
-
+    /* opacity: 60%; */
+   
+}     
 .input-4{
     height: 40px;
     width: 340px;
@@ -128,18 +135,17 @@ textarea::placeholder {
     height: 40px;
     width: 340px;
     margin-bottom: 23px;
-    border: 2px solid white;
-    
+    border: 2px solid white;   
 }
 button{
-    margin: px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
     height:40px ;
     width: 80%;
-    padding-left: 26px;
+    /* padding-left: 26px; */
     text-align: center;
 }
 .link-1{
     text-decoration: none;
-    color: black;
+    color: rgb(30, 4, 4);
     font-size: 17px;
 }
