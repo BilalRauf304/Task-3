@@ -32,7 +32,7 @@ body{
     font-weight: bolder ;
 }
 .chek-11{
-         display: flex;
+     display: flex;
     justify-content: center;
     height: 13px;
     width: 13px;
@@ -41,10 +41,8 @@ body{
     position: relative;
     left: 380px;
     top: -90px;
-
 }
 .chek-22{
-    /* padding: 0px 0px 0px 200px; */
     display: flex;
     justify-content: center;
     height: 13px;
@@ -57,9 +55,8 @@ body{
 
 }
 input[type=checkbox]{
-    accent-color: rgb(129, 31, 171);
-    /* opacity: 50%; */
-    /* outline-color:rgb(241, 241, 234) ; */
+    accent-color: rgb(207, 149, 149);
+    border: 2px  blanchedalmond;
 }
 
 .aside1{
@@ -91,6 +88,39 @@ input[type=checkbox]{
     margin: 0px 0px 0px 0px ;
     font-weight: bolder;
 }
+.main-d{
+    display:flex;
+    justify-content:first baseline;
+    gap: 67px;
+    padding-bottom: 5px;
+}
+#chek-1{
+    height: 15px;
+    width: 18px;
+    vertical-align: middle;
+    border-width: 4px solid red;
+    background-color: rgb(17, 16, 16);
+    accent-color:rgb(188, 183, 183);
+    opacity: 0.8;
+}
+.checkboxes123{
+    color:white;
+    font-size:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btm{
+    display: flex;
+    justify-content:center;
+    height: 18px;
+    width: 18px;
+    border-width: 2px;
+    border:2px solid burlywood ;
+    align-items: center;
+    font-size: 22px;
+    align-content: center;
+    background-color: rgb(243, 238, 238);
+    opacity: 0.9;
+}
 .asidetext-2{
     color: aliceblue;
     font-size:11px;
@@ -107,7 +137,6 @@ textarea::placeholder {
   color: rgb(245, 239, 239);
   font-family: Verdana, Tahoma, sans-serif;
   font-size:9px;
-
 }
 .chekboxes{
     display: flex;
@@ -119,40 +148,49 @@ textarea::placeholder {
 .input-4{
     height: 40px;
     width: 340px;
+    padding: 0px 0px 16px 0px ;
     margin-bottom: 23px;
     border: 2px solid white;
-    text-decoration: azure;
+    background-color: brown;
+    color: aliceblue;
 }
 .input-5{
-    height: 40px;
+    height: 46px;
     width: 340px;
     margin-bottom: 23px;
     border: 2px solid white;
+     background-color: brown;
+    color: aliceblue;
 
 }
 .input-6{
-    height: 40px;
+    height: 46px;
     width: 340px;
     margin-bottom: 23px;
     border: 2px solid white;
+     background-color: brown;
+    color: aliceblue;
 }
 .input-7{
-    height: 40px;
+    height: 46px;
     width: 340px;
     margin-bottom: 23px;
     border: 2px solid white;
+     background-color: brown;
+    color: aliceblue;
 }
 .input-8{
-    height: 40px;
+    height: 46px;
     width: 340px;
     margin-bottom: 23px;
-    border: 2px solid white;   
+    border: 2px solid white; 
+     background-color: brown;
+    color: aliceblue;  
 }
 button{
     margin:0px 0px 0px 0px;
     height:44px ;
     width: 80%;
-    /* padding-left: 26px; */
     text-align: center;
 }
 .link-1{
@@ -163,7 +201,7 @@ button{
 .bt{
     display: flex;
     justify-content: center;
-    height: 13px;
+    height: 12px;
     width: 13px;
     align-items: center;
     font-size: 25px;
