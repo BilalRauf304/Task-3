@@ -35,16 +35,18 @@ body{
 
 }
 .text_3{
-    font-size: 30px;
+    font-family: Verdana,  Tahoma, sans-serif;
+    font-size: 24px;
     color: white;
-    margin: 10px 0px 0px 16px ;
+    padding: 0px 0px 0px 20px;
 
 
 }
 .text_4{
-    font-size: 30px;
+    font-family: Verdana,  Tahoma, sans-serif;
+    padding: 0px 0px 0px 20px;
+    font-size: 24px;
     color: white;
-    margin: 12px 0px 0px 16px; 
 
 }
 .section-2{
@@ -52,39 +54,25 @@ body{
     padding: 170px 0px 0px 110px ;
     border: 2px solid white;
 }
-.icon-logo{
-    height: 33px;
-    /* margin: 0px 0px 0px 40px ; */
-    padding: 20px 0px 0px 0px ;
-}
-.logo-text{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 44px;
-    font-weight: bolder;
-    padding: 40px 0px 0px 0px ;
-}
-.img-1png{
-    display: flex;
-    height: 152px;
-    gap:40px ; 
-}
 .img-1png > img{
      padding: 20px 0px 0px 38px;
      
 }
 .img-1pngtext{
-    font-size: 26px;
+    font-size: 22px;
     display: flex;
-    gap: 75px;
-    padding: 8px 0px 0px 24px;
+    gap: 66px;
+    padding: 8px 0px 0px 20px;
     color: rgb(153, 14, 14);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .img-1pngtext-2{
-    padding: 0px 0px 44px 78px;
-    font-size: 19px;
+    padding: 0px 0px 44px 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
     font-weight: bolder;
     display: flex;
-    gap: 156px;
+    gap: 159px;
 }
 .footer{
     background-color: brown;
@@ -110,4 +98,24 @@ body{
       margin: -4px 0px 0px 0px;
      font-size: 43px;
 
+}
+/* ////////////////////////////////////// */
+.main{
+    display: flex;
+    align-items: first baseline;
+    padding: 0px 0px 0px 30px ;
+}
+h1{
+    font-size: 44px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.awards-logo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 0px 0px 0px 30px ;
+}
+.text-lorems{
+    display: flex;
+    gap: 23px;
 }
