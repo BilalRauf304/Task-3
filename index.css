@@ -88,10 +88,14 @@ input[type=checkbox]{
     margin: 0px 0px 0px 0px ;
     font-weight: bolder;
 }
+aside-div{
+    background-color: yellow;
+}
 .main-d{
     display:flex;
-    justify-content:first baseline;
-    gap: 67px;
+    /* flex-direction: column; */
+    justify-content:space-between;
+    /* gap: 80px; */
     padding-bottom: 5px;
 }
 #chek-1{
@@ -108,7 +112,22 @@ input[type=checkbox]{
     font-size:12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.btm{
+.bt-spac1{
+     padding: 0px 0px 0px 28px ;
+}
+.bt-spac2{
+     padding: 0px 0px 0px 8px ;
+}
+.bt-spac3{
+     padding: 0px 0px 0px 8px ;
+}
+.bt-spac4{
+     padding: 0px 0px 0px 8px ;
+}
+.bt-spac5{
+     padding: 0px 0px 0px 8px ;
+}
+.btm-1{
     display: flex;
     justify-content:center;
     height: 18px;
@@ -120,6 +139,10 @@ input[type=checkbox]{
     align-content: center;
     background-color: rgb(243, 238, 238);
     opacity: 0.9;
+   
+}
+.textarea-sp{
+    margin:37px 0px 9px -379px
 }
 .asidetext-2{
     color: aliceblue;
